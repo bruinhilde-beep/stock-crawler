@@ -7,7 +7,7 @@ LINE_CHANNEL_TOKEN = os.getenv("LINE_CHANNEL_TOKEN")   # 從 GitHub Secrets 自�
 
 # 要發送訊息的 USER ID（你的 LINE 官方帳號好友的 User ID）
 # 目前先用你自己的 User ID，之後再教你怎麼找
-YOUR_USER_ID = "你的LINE_USER_ID_請填這裡"   
+YOUR_USER_ID = "bruinhilde"   
 
 def send_line_message(message):
     if not LINE_CHANNEL_TOKEN or not YOUR_USER_ID:
